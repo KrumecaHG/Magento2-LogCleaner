@@ -1,9 +1,9 @@
 <?php
-namespace Rakeshmagento\Logcleaner\Cron;
+namespace Rakeshmagento\LogCleaner\Cron;
 
 use \Psr\Log\LoggerInterface;
 
-class Logcleaner {
+class LogCleaner {
 
     protected $logger;
 
@@ -30,8 +30,8 @@ class Logcleaner {
                             'report_viewed_product_index',
                             'report_compared_product_index',
                             'customer_visitor',
-							'cron_schedule'
-                        );
+			    'cron_schedule');
+	    
         foreach($tablesToTurncate as $_key => $value){
 
             $tableName  = $resource->getTableName($value);

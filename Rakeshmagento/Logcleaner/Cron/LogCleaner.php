@@ -30,7 +30,8 @@ class LogCleaner {
                             'report_viewed_product_index',
                             'report_compared_product_index',
                             'customer_visitor',
-			    'cron_schedule');
+			    'cron_schedule',
+			    'search_query');
 	    
         foreach($tablesToTurncate as $_key => $value){
 

@@ -1,5 +1,6 @@
 # magento2-db-log-cleaner
 Magento2 Cron Log Cleaning, the module will clean the following tables weekly
+https://devdocs.magento.com/guides/v2.3/config-guide/cron/custom-cron-tut.html
 
 report_event
 
@@ -31,6 +32,7 @@ php bin/magento module:status
 
 4.Now run the cron commads
 
+php bin/magento cron:run
 php bin/magento cron:run
 
 5.Now open the table cron_schedual , there is a new entry db_log_cleaning, that will be processed on time.

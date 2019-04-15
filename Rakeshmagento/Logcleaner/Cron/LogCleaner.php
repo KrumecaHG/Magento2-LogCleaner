@@ -45,7 +45,7 @@ class LogCleaner {
                 $this->logger->critical($e);
             }
         }
-        $this->logger->info('Db Log cleaning cron ended..!');
+        $this->logger->info('Db Log Cleaning Cron Ended!');
 
         return $this;
     }

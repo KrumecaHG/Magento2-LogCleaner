@@ -10,6 +10,8 @@ report_compared_product_index
 
 customer_visitor
 
+search_query
+
 cron_schedule
 
 # installation
